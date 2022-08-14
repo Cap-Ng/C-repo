@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{
+	int a,b,c,d;
+	d=1;
+	while(d<=630)
+	{
+		if(d%7==0)
+		{
+			if(d%63==0)
+			{
+				d++;
+				continue;
+			}
+		printf("%d\n",d);
+		}
+		d++;
+	}
+}
